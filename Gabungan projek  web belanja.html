@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TOKO ONLINE </title> 
+    <style>*{
+    
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    
+    a{
+        color: black;
+    }
+    a:hover{
+        color: white;
+    }
+    .active{
+    color: green;
+    }
+    .header{
+        margin-bottom: 50px; 
+        height: 65px;
+        display: flex;
+           background-color: rgb(4, 0, 255);
+           width: 100%;
+           justify-content: space-around
+    }
+    .header .satu h2{
+        font-weight: bold;
+    }
+    .header .satu{
+         width: 50%;
+         margin: auto 0;
+         padding-left: 100px;
+    }
+    .header.dua{
+        width: 50%;
+        margin: auto 0;
+        padding-left: 100px;
+    }
+    .header ul li{
+        font-size: 1.1em;
+         display: inline-block;
+         margin: 0 10px;
+    }
+    .judul button{
+        cursor: pointer;
+        font-size: 1.1em;
+        text-align: center;
+        border-radius: 20px;
+        background-color: #DC143C;
+        border: 0;
+        margin-top: 20px;
+    
+        color: white;
+        padding: 10px;
+    }
+    section {
+        width: 100%;
+        display: flex;
+    }
+    section .judul {
+        font-size: 1.6em;
+        width: 50%;
+        padding: 100px;
+    }
+    section .judul p {
+        line-height: 40px;
+    }
+    section .fotosamping img {
+        width: 100%;
+    }
+    section .fotosamping {
+        width: 50%;
+    }
+     
+    .fix-img{
+        width: 100%;
+    }
+    
+    
+    .container{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f8edeb;
+    }
+    H1{
+        color: green
+    }
+    
+    .row{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .col-3{
+        width:25%;
+        margin: 10px;
+        
+    }
+    
+    .col-3 button{
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #f4a261;
+        color: white;
+        width: 100%;
+        margin: 5px 0;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    .col-3 button:hover{
+        background-color: #0badf8;
+    }
+    
+    .col-3 .produk{
+        padding: 10px;
+        border-radius:20px;
+        background-color: #f8edeb;
+        box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+    }
+    .col-3 .produk img{
+    height: 150px;
+    }
+    
+    footer p{
+    padding: 50px 0px;
+    background-color: #a8dadc;
+    text-align: center;
+    color: black;
+    }
+    
+    .contak form {
+    width: 50%;
+    margin: auto;
+    }
+    .contak from p{
+        margin: 25px 0;
+    
+    }
+    .contak form button{
+        border-radius: 20px;
+    
+        padding: 20px;
+        background-color: #f4a261;
+        color: white;
+        width: 100%;
+        margin: 5px 0;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    .contak form input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: #fefae0;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    border: 0;
+    }
+    
+    .about{
+        text-align: center;
+        margin-top: 20px;
+        padding: 50px
+    }
+    </style>
+</head>
+<body style="background: url(img/laptop-gbc435b14c_1280.png)">
+   <!--header open -->
+   <header>
+       <div class="header">
+           <div class="satu"><h2>TOKO ONLINE</h2></div>
+           <div class="dua">
+               <ul>
+               <a href="#home"><li >HOME</li></a>
+              <li><a href="#produk">PRODUK</a></li>
+              <li> <a href="#contak">CONTAK</a></li>
+               <li><a href="#about">ABOUT</a></li>
+               </ul>
+           </div>
+       </div>
+   </header>
+   <!--header close-->
+   <!-- jumbotron open -->
+   <section>
+       <div class="judul">
+           <h1>Selamat Datang Di Toko Online </h1>
+           <P> semangka merupakan sumber vitamin C dan vitamin A yang sangat baik, 
+               memberikan persentase yang signifikan dari kebutuhan harian tubuh untuk keduanya.
+                Vitamin C membantu mempercepat penyembuhan luka dan memiliki sifat antipenuaan serta meningkatkan imunitas tubuh.
+           </P>
+       <button>BELANJA SEKARANG</button>
+        </div>
+       <div class="fotosamping">
+           <img src="img/semangka.jpg" alt="">
+       </div>
+   </section>
+   <!-- jumbotron close -->
+
+
+   <!-- produk open -->
+   <section id="produk">
+   <div class="container">
+   <H1 style="text-align: center">Produk Terbaru</H1>
+       <div class="row">
+           <div class="col-3 fix-img">
+             <div class="produk">
+                    <img src="img/nanas.jpg"class="fix-img" alt="">
+                    <h1>Nanas</h1>
+                    <p>RP.25.000</p>
+                    <a href="pembayaran3.html"><button>ORDER</button></a>
+             </div>
+           </div>
+
+
+           <div class="col-3 fix-img">
+                <div class="produk">
+                       <img src="img/anggur.jpg"class="fix-img" alt="">
+                       <h1>Anggur</h1>
+                       <p>RP.35.000</p>
+                       <a href="pembayaran2.html"><button>ORDER</button></a>
+                </div>
+
+
+              </div>
+              <div class="col-3 fix-img">
+                    <div class="produk">
+                           <img src="img/jeruk.jpeg"class="fix-img" alt="">
+                           <h1>Jeruk</h1>
+                           <p>RP.20.000</p>
+                          <a href="pembayaran4.html"><button>ORDER</button></a>
+                    </div>
+                  </div>
+
+                  <div class="col-3 fix-img">
+                        <div class="produk">
+                               <img src="img/ceri.jpg"class="fix-img" alt="">
+                               <h1>Ceri</h1>
+                               <p>RP.20.000</p>
+                              <a href="pembayaran5.html"><button>ORDER</button></a>
+                        </div>
+                      </div>
+                      <div class="col-3 fix-img">
+                            <div class="produk">
+                                   <img src="img/strawberry.jpg"class="fix-img" alt="">
+                                   <h1>strawberry</h1>
+                                   <p>RP.15 000</p>
+                                   <a href="pembayaran1.html"><button>ORDER</button></a>
+                            </div>
+                          </div>
+                          <div class="col-3 fix-img">
+                                <div class="produk">
+                                       <img src="img/semangka.jpg"class="fix-img" alt="">
+                                       <h1>semangka</h1>
+                                       <p>RP.20.000</p>
+                                       <a href="pembayara .html"><button>ORDER</button></a>
+                                </div>
+                              </div>
+       </div>
+   </div>
+   </section>
+   <!-- produk close -->
+   
+<!-- contak open-->
+<section id="contak">
+<div class="contak">
+    <h2>KONTAK KAMI</h2>
+    <form action="">
+    <label for="">NAMA ANDA</label>
+        <input type="text">
+        <form action="">
+                <label for="">NOMOR ANDA</label>
+                    <input type="text">
+                    <form action="">
+                            <label for="">EMAIL</label>
+                                <input type="text">
+               <p><button>KIRIM</button></p>                
+    </form>
+</div>
+</section>
+<!-- contak close -->
+
+<!-- open about -->
+<section id="about">
+<div class="about">
+    
+        <h2>ABOUT</h2>
+        <p>nikmati belanja anda di toko online kami .</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates facere asperiores nesciunt! 
+              Laudantium ad enim perspiciatis dignissimos autem, 
+             eos qui expedita totam neque minus fugiat possimus iusto! Qui, autem ducimus?</p>
+           <p>TERIMAKASIH SUDAH MAMPIR DAN MEMBELI DI KAMI </p>   
+    
+</div>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+   <a href="https://www.facebook.com/mevanrizki.gunawan.7"><p>Copyright By Evan Rizki coding</p></a> 
+</footer>
+</body>
+</html>
